@@ -1,7 +1,8 @@
 h1 {
-    color: brown; font-size: 45px; text-shadow: 2px 2px;
+    color: brown; font-size: 45px; text-shadow: 2px 2px; /* Giver titlen en text shadow og lidt farve samt størrelse. */
 }
-#example1 {
+
+#example1 { /* Her har jeg sat en "gif" ind, derefter lavet størrelse og placering på den. */
     background-image: url("https://media4.giphy.com/media/fQ3mJIkIEeR8VqYzes/giphy.gif?cid=6c09b952s6ezk0z4ejzvoiybswsstnosi5nh8ixo0ygs6x38&ep=v1_gifs_search&rid=giphy.gif&ct=g");
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -10,39 +11,46 @@ h1 {
     width: 50px;
     height: 50px;
     margin-top: 30px; 
-  }       
+  }  
+
   table {
-    width: 100%;
+    width: 100%; 
     border-collapse: collapse;
 }
+
 th, td {
-    border: 1.5px solid black;
+    border: 1.5px solid black; /* Border tilføjer en kant rundt om data og overskifter. */
     padding: 8px;
-    text-align: left;
+    text-align: left; /* Sætter teksten mod venstre. */
 }
-th {
-    background-color: #f2f2f2;
-}
+
 body {
     background-color: lightgray;
 }
-#albumtable th {
+
+#albumtable th { /* Tableheader gøres darkblue, padding med 15 pixels skaber lidt afstand. */
 background-color: darkblue;
 color: white;
-padding: 10px;
+padding: 15px;
 }
-#albumtable tr {
+
+#albumtable tr { /*Table rows gøres beige. */
 background-color: beige;
 }
-.hidden {
+
+.hidden { /* Det her er linket til knappen som skjuler det hele, med "display" og "none" vises der ikke tabellen mere. */
 display: none;
 }
-#albumtable tr:hover {
+
+#albumtable tr:hover { /* Når man "hover" over tabellen bliver til en brun farve. */
     background-color: brown;
 }
-#albumtable tr:nth-child(even) {
+
+#albumtable tr:nth-child(even) {  /* Ændrer baggrundsfarven for de "even" rækker til lightblue. */
     background-color: lightblue;
 }
-tr:nth-child(even) {
-background-color: pink;
-} 
+
+button:hover {
+    background-color: blueviolet;
+    transform: translateY(+2px); /* "TranslateY rykker knappen på hover 2 pixels op, når musen er på den. */
+}
