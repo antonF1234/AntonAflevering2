@@ -1,0 +1,48 @@
+h1 {
+    color: brown; font-size: 45px; text-shadow: 2px 2px;
+}
+#example1 {
+    background-image: url("https://media4.giphy.com/media/fQ3mJIkIEeR8VqYzes/giphy.gif?cid=6c09b952s6ezk0z4ejzvoiybswsstnosi5nh8ixo0ygs6x38&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    padding: 15px;
+    background-size: cover; 
+    width: 50px;
+    height: 50px;
+    margin-top: 30px; 
+  }       
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1.5px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+body {
+    background-color: lightgray;
+}
+#albumtable th {
+background-color: darkblue;
+color: white;
+padding: 10px;
+}
+#albumtable tr {
+background-color: beige;
+}
+.hidden {
+display: none;
+}
+#albumtable tr:hover {
+    background-color: brown;
+}
+#albumtable tr:nth-child(even) {
+    background-color: lightblue;
+}
+tr:nth-child(even) {
+background-color: pink;
+} 
